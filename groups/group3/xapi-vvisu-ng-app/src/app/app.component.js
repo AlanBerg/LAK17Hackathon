@@ -11,6 +11,7 @@ import MeVsGroupPlayComponent from './mevsgroupplay/mevsgroupplay.component';
 export default module('app', [
     'ngMaterial',
     'angular-logger',
+    'base64',
     AppTheme.name,
     AppRoutes.name,
     ToolbarComponent.name,
@@ -20,4 +21,11 @@ export default module('app', [
     template: `<toolbar></toolbar>
                 <md-content ng-cloak><div ui-view></div></md-content>`,
     restrict: 'E',
-});
+})
+    .config(function ($httpProvider) {
+        $httpProvider.defaults.headers.common = {};
+        $httpProvider.defaults.headers.post = {};
+        $httpProvider.defaults.headers.put = {};
+        $httpProvider.defaults.headers.patch = {};
+        $httpProvider.defaults.headers.get = {};
+    });

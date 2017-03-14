@@ -30,3 +30,5 @@ import 'font-awesome/scss/font-awesome.scss';
 import 'angular-logger';
 
 import './assets/font/fira_code.scss';
+
+import 'angular-base64';

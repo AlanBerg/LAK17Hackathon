@@ -5,6 +5,7 @@ import AppRoutes from './app.routes';
 
 import ToolbarComponent from './toolbar/toolbar.component';
 import HomeComponent from './home/home.component';
+import MeVsGroupPlayComponent from './mevsgroupplay/mevsgroupplay.component';
 
 
 export default module('app', [
@@ -14,6 +15,7 @@ export default module('app', [
     AppRoutes.name,
     ToolbarComponent.name,
     HomeComponent.name,
+    MeVsGroupPlayComponent.name,
 ]).component('app', {
     template: `<toolbar></toolbar>
                 <md-content ng-cloak><div ui-view></div></md-content>`,

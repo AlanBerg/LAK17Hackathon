@@ -7,8 +7,12 @@ function routeConfig($urlRouterProvider, $stateProvider, $locationProvider) {
 
   $stateProvider
     .state('home', {
-      url: '/',
+      url: '/home',
       component: 'home',
+    })
+    .state('mevsgroupplay', {
+      url: '/',
+      component: 'mevsgroupplay',
     });
 
   $urlRouterProvider.otherwise('/');

@@ -1,0 +1,6 @@
+<md-input-container style="margin-right: 10px;">
+    <label>Learner id</label>
+    <md-select ng-model="mevsgroupplay.selectedLearnerId" ng-change="mevsgroupplay.applyFilter()">
+        <md-option ng-repeat="learnerName in mevsgroupplay.learnersList" value="{{learnerName}}">{{learnerName}}</md-option>
+    </md-select>
+</md-input-container>

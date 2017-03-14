@@ -4,7 +4,7 @@
         "actor": {
             "objectType": "Agent",
             "account": {
-                "name": "**STUDENT_ID**"
+                "name": "**STUDENT_ID-1**"
             }
         },
         "timestamp": "**ACTIVITY_DATE_TIME**",
@@ -15,18 +15,18 @@
             }
         },
         "result": {
-            "duration": "**DURATION**",
+            "duration": 23,
             "extensions": {
                 "https://w3id.org/xapi/video/extensions/time-from": "**FROM_DATE_TIME**"
             }
         },
         "object": {
             "objectType": "Video",
-            "id": "**VIDEO_URL**",
+            "id": "**VIDEO_URL-1**",
             "definition": {
                 "type": "http://xapi.jisc.ac.uk/types/video",
                 "name": {
-                    "en": "**VIDEO_NAME**"
+                    "en": "**VIDEO_NAME-1**"
                 },
                 "description": {
                     "en": "**VIDEO_DESCRIPTION**"
@@ -59,7 +59,7 @@
         "actor": {
             "objectType": "Agent",
             "account": {
-                "name": "**STUDENT_ID**"
+                "name": "**STUDENT_ID-11**"
             }
         },
         "timestamp": "**ACTIVITY_DATE_TIME**",
@@ -70,18 +70,293 @@
             }
         },
         "result": {
-            "duration": "**DURATION**",
+            "duration": 25,
             "extensions": {
                 "https://w3id.org/xapi/video/extensions/time-from": "**FROM_DATE_TIME**"
             }
         },
         "object": {
             "objectType": "Video",
-            "id": "**VIDEO_URL**",
+            "id": "**VIDEO_URL-1**",
             "definition": {
                 "type": "http://xapi.jisc.ac.uk/types/video",
                 "name": {
-                    "en": "**VIDEO_NAME**"
+                    "en": "**VIDEO_NAME-1**"
+                },
+                "description": {
+                    "en": "**VIDEO_DESCRIPTION**"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Agent",
+                "name": "instructor",
+                "account": {
+                    "name": "**STAFF_ID**",
+                    "homePage": "**HOMEPAGE**"
+                }
+            },
+            "platform": "UxAPI",
+            "extensions": {
+                "http://xapi.jisc.ac.uk/courseArea": {
+                    "http://xapi.jisc.ac.uk/uddModInstanceID": "**MOD_INSTANCE_ID**"
+                },
+                "http://xapi.jisc.ac.uk/activity_type_id": "played",
+                "http://xapi.jisc.ac.uk/activity_mandatory": "**ACTIVITY_MANDATORY**",
+                "http://xapi.jisc.ac.uk/starttime": "**ACTIVITY_DATE_TIME**",
+                "http://xapi.jisc.ac.uk/recipeVersion": "play_videoV0.1"
+            }
+        }
+    },
+    {
+        "version": "1.0.0",
+        "actor": {
+            "objectType": "Agent",
+            "account": {
+                "name": "**STUDENT_ID-12**"
+            }
+        },
+        "timestamp": "**ACTIVITY_DATE_TIME**",
+        "verb": {
+            "id": "https://w3id.org/xapi/video/verbs/played",
+            "display": {
+                "en": "played"
+            }
+        },
+        "result": {
+            "duration": 44,
+            "extensions": {
+                "https://w3id.org/xapi/video/extensions/time-from": "**FROM_DATE_TIME**"
+            }
+        },
+        "object": {
+            "objectType": "Video",
+            "id": "**VIDEO_URL-1**",
+            "definition": {
+                "type": "http://xapi.jisc.ac.uk/types/video",
+                "name": {
+                    "en": "**VIDEO_NAME-1**"
+                },
+                "description": {
+                    "en": "**VIDEO_DESCRIPTION**"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Agent",
+                "name": "instructor",
+                "account": {
+                    "name": "**STAFF_ID**",
+                    "homePage": "**HOMEPAGE**"
+                }
+            },
+            "platform": "UxAPI",
+            "extensions": {
+                "http://xapi.jisc.ac.uk/courseArea": {
+                    "http://xapi.jisc.ac.uk/uddModInstanceID": "**MOD_INSTANCE_ID**"
+                },
+                "http://xapi.jisc.ac.uk/activity_type_id": "played",
+                "http://xapi.jisc.ac.uk/activity_mandatory": "**ACTIVITY_MANDATORY**",
+                "http://xapi.jisc.ac.uk/starttime": "**ACTIVITY_DATE_TIME**",
+                "http://xapi.jisc.ac.uk/recipeVersion": "play_videoV0.1"
+            }
+        }
+    },
+    {
+        "version": "1.0.0",
+        "actor": {
+            "objectType": "Agent",
+            "account": {
+                "name": "**STUDENT_ID-13**"
+            }
+        },
+        "timestamp": "**ACTIVITY_DATE_TIME**",
+        "verb": {
+            "id": "https://w3id.org/xapi/video/verbs/played",
+            "display": {
+                "en": "played"
+            }
+        },
+        "result": {
+            "duration": 18,
+            "extensions": {
+                "https://w3id.org/xapi/video/extensions/time-from": "**FROM_DATE_TIME**"
+            }
+        },
+        "object": {
+            "objectType": "Video",
+            "id": "**VIDEO_URL-3**",
+            "definition": {
+                "type": "http://xapi.jisc.ac.uk/types/video",
+                "name": {
+                    "en": "**VIDEO_NAME-1**"
+                },
+                "description": {
+                    "en": "**VIDEO_DESCRIPTION**"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Agent",
+                "name": "instructor",
+                "account": {
+                    "name": "**STAFF_ID**",
+                    "homePage": "**HOMEPAGE**"
+                }
+            },
+            "platform": "UxAPI",
+            "extensions": {
+                "http://xapi.jisc.ac.uk/courseArea": {
+                    "http://xapi.jisc.ac.uk/uddModInstanceID": "**MOD_INSTANCE_ID**"
+                },
+                "http://xapi.jisc.ac.uk/activity_type_id": "played",
+                "http://xapi.jisc.ac.uk/activity_mandatory": "**ACTIVITY_MANDATORY**",
+                "http://xapi.jisc.ac.uk/starttime": "**ACTIVITY_DATE_TIME**",
+                "http://xapi.jisc.ac.uk/recipeVersion": "play_videoV0.1"
+            }
+        }
+    },
+    {
+        "version": "1.0.0",
+        "actor": {
+            "objectType": "Agent",
+            "account": {
+                "name": "**STUDENT_ID-14**"
+            }
+        },
+        "timestamp": "**ACTIVITY_DATE_TIME**",
+        "verb": {
+            "id": "https://w3id.org/xapi/video/verbs/played",
+            "display": {
+                "en": "played"
+            }
+        },
+        "result": {
+            "duration": 10,
+            "extensions": {
+                "https://w3id.org/xapi/video/extensions/time-from": "**FROM_DATE_TIME**"
+            }
+        },
+        "object": {
+            "objectType": "Video",
+            "id": "**VIDEO_URL-3**",
+            "definition": {
+                "type": "http://xapi.jisc.ac.uk/types/video",
+                "name": {
+                    "en": "**VIDEO_NAME-1**"
+                },
+                "description": {
+                    "en": "**VIDEO_DESCRIPTION**"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Agent",
+                "name": "instructor",
+                "account": {
+                    "name": "**STAFF_ID**",
+                    "homePage": "**HOMEPAGE**"
+                }
+            },
+            "platform": "UxAPI",
+            "extensions": {
+                "http://xapi.jisc.ac.uk/courseArea": {
+                    "http://xapi.jisc.ac.uk/uddModInstanceID": "**MOD_INSTANCE_ID**"
+                },
+                "http://xapi.jisc.ac.uk/activity_type_id": "played",
+                "http://xapi.jisc.ac.uk/activity_mandatory": "**ACTIVITY_MANDATORY**",
+                "http://xapi.jisc.ac.uk/starttime": "**ACTIVITY_DATE_TIME**",
+                "http://xapi.jisc.ac.uk/recipeVersion": "play_videoV0.1"
+            }
+        }
+    },
+    {
+        "version": "1.0.0",
+        "actor": {
+            "objectType": "Agent",
+            "account": {
+                "name": "**STUDENT_ID-1**"
+            }
+        },
+        "timestamp": "**ACTIVITY_DATE_TIME**",
+        "verb": {
+            "id": "https://w3id.org/xapi/video/verbs/played",
+            "display": {
+                "en": "played"
+            }
+        },
+        "result": {
+            "duration": 35,
+            "extensions": {
+                "https://w3id.org/xapi/video/extensions/time-from": "**FROM_DATE_TIME**"
+            }
+        },
+        "object": {
+            "objectType": "Video",
+            "id": "**VIDEO_URL-3**",
+            "definition": {
+                "type": "http://xapi.jisc.ac.uk/types/video",
+                "name": {
+                    "en": "**VIDEO_NAME-3**"
+                },
+                "description": {
+                    "en": "**VIDEO_DESCRIPTION**"
+                }
+            }
+        },
+        "context": {
+            "instructor": {
+                "objectType": "Agent",
+                "name": "instructor",
+                "account": {
+                    "name": "**STAFF_ID**",
+                    "homePage": "**HOMEPAGE**"
+                }
+            },
+            "platform": "UxAPI",
+            "extensions": {
+                "http://xapi.jisc.ac.uk/courseArea": {
+                    "http://xapi.jisc.ac.uk/uddModInstanceID": "**MOD_INSTANCE_ID**"
+                },
+                "http://xapi.jisc.ac.uk/activity_type_id": "played",
+                "http://xapi.jisc.ac.uk/activity_mandatory": "**ACTIVITY_MANDATORY**",
+                "http://xapi.jisc.ac.uk/starttime": "**ACTIVITY_DATE_TIME**",
+                "http://xapi.jisc.ac.uk/recipeVersion": "play_videoV0.1"
+            }
+        }
+    },
+    {
+        "version": "1.0.0",
+        "actor": {
+            "objectType": "Agent",
+            "account": {
+                "name": "**STUDENT_ID-2**"
+            }
+        },
+        "timestamp": "**ACTIVITY_DATE_TIME**",
+        "verb": {
+            "id": "https://w3id.org/xapi/video/verbs/played",
+            "display": {
+                "en": "played"
+            }
+        },
+        "result": {
+            "duration": 20,
+            "extensions": {
+                "https://w3id.org/xapi/video/extensions/time-from": "**FROM_DATE_TIME**"
+            }
+        },
+        "object": {
+            "objectType": "Video",
+            "id": "**VIDEO_URL-2**",
+            "definition": {
+                "type": "http://xapi.jisc.ac.uk/types/video",
+                "name": {
+                    "en": "**VIDEO_NAME-2**"
                 },
                 "description": {
                     "en": "**VIDEO_DESCRIPTION**"
